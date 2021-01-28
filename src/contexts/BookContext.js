@@ -24,7 +24,7 @@ const BookContextProvider = (props) => {
     }
 
     return (
-        <BookContext.Provider value={{ books,addBook,removeBook }}>
+        <BookContext.Provider value={{ books, addBook, removeBook }}>
             {props.children}
         </BookContext.Provider>
     )
