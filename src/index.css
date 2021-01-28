@@ -58,3 +58,30 @@ body {
   padding-bottom: 20px;
 
 }
+
+form{
+  padding: 20px;
+}
+
+
+input[type='text']{
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 10px auto;
+  background: #3c1f3c;
+  color: #fff;
+  border:0;
+  border-radius: 4px;
+}
+
+
+input[type='submit']{
+  margin: 10px auto;
+  background: #eee;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
+  cursor: pointer;
+  border-radius: 8px;
+}
